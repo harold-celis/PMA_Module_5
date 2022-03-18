@@ -5,9 +5,9 @@
 
 :root {
   --hue-neutral: 200;
-  --hue-wrong: 0;
-  --hue-correct: 145;
-}
+  --hue-wrong: 200;
+  --hue-correct: 200;
+} /*i changed the values on hue-wrong and hue-correct, since this is not an exercise of good or wrong" */
 
 body {
   --hue: var(--hue-neutral);
@@ -61,8 +61,7 @@ body.wrong {
 
 .btn.correct {
   --hue: var(--hue-correct);
-  color: black;
-}
+} /* i removed the code:  color:  black*/
 
 .btn.wrong {
   --hue: var(--hue-wrong);
