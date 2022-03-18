@@ -4,7 +4,7 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
-let shuffledQuestions, currentQuestionIndex
+/*let shuffledQuestions, currentQuestionIndex , i don't wan't random questions*/
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -78,35 +78,39 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'Do you enjoy working with data?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'Strongly Disagree', correct: true },
+      { text: 'Disagree', correct: true },
+      { text: 'Partially agree', correct: true },
+      { text: 'Strongly agree', correct: true }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'Is marketing your favorite module?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Strongly Disagree', correct: true },
+      { text: 'Disagree', correct: true },
+      { text: 'Partially agree', correct: true },
+      { text: 'Strongly agree', correct: true }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'Is ecommerce your favorite module?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'Strongly Disagree', correct: true },
+      { text: 'Disagree', correct: true },
+      { text: 'Partially agree', correct: true },
+      { text: 'Strongly agree', correct: true }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'Do you have an entrepreneurship project?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'Strongly Disagree', correct: true },
+      { text: 'Disagree', correct: true },
+      { text: 'Partially agree', correct: true },
+      { text: 'Strongly agree', correct: true }
     ]
   }
 ]
