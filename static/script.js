@@ -113,4 +113,40 @@ const questions = [
       { text: 'Strongly agree', correct: true }
     ]
   }
+  {
+    question: 'Do you prefer influencer marketing?',
+    answers: [
+      { text: 'Strongly Disagree', correct: true },
+      { text: 'Disagree', correct: true },
+      { text: 'Partially agree', correct: true },
+      { text: 'Strongly agree', correct: true }
+    ]
+  }
+  {
+    question: 'Do you prefer customer journey?',
+    answers: [
+      { text: 'Strongly Disagree', correct: true },
+      { text: 'Disagree', correct: true },
+      { text: 'Partially agree', correct: true },
+      { text: 'Strongly agree', correct: true }
+    ]
+  }
+  {
+    question: 'Do you prefer the last stage of marketing funnel: postpurchase?',
+    answers: [
+      { text: 'Strongly Disagree', correct: true },
+      { text: 'Disagree', correct: true },
+      { text: 'Partially agree', correct: true },
+      { text: 'Strongly agree', correct: true }
+    ]
+  }
+  {
+    question: 'Do you prefer podcasts?',
+    answers: [
+      { text: 'Strongly Disagree', correct: true },
+      { text: 'Disagree', correct: true },
+      { text: 'Partially agree', correct: true },
+      { text: 'Strongly agree', correct: true }
+    ]
+  }
 ]
