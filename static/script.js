@@ -6,6 +6,12 @@ const answerButtonsElement = document.getElementById('answer-buttons')
 
 let shuffledQuestions, currentQuestionIndex
 
+/* this section was added from this webpage: https://www.youtube.com/watch?v=XF1_MlZ5l6M&ab_channel=WebDevSimplified
+to see if i can record what stundets answers*/
+answer-buttons.addEventListener("click", e => {
+  console.log("answer-buttons")
+})
+
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -15,7 +21,7 @@ nextButton.addEventListener('click', () => {
 
 function startGame() {
   startButton.classList.add('hide')
-  shuffledQuestions = questions 
+  shuffledQuestions = questions /* I changed the original code here, so i don't get random questions. Instead i get the order i want */ 
   currentQuestionIndex = 0 
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
