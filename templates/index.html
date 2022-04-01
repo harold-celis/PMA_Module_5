@@ -13,6 +13,21 @@
 		<div id="question-container" class="hide">
 			<div id="question">Question</div>
 			<div id="answer-buttons" class="btn-grid">
+				<script>
+
+				var buttonValue = document.getElementsByClassName("btn")[0].innerHTML;
+				console.log(buttonValue);
+
+
+				window.addEventListener('click',function(e) {
+        e = e || window.event;
+        var target = e.target || e.srcElement;
+        console.log('window noticed you clicked something1');
+        console.log("value of the element clicked== "+target.innerHTML);
+        console.log(target);//<-- this is the element that was clicked
+}, false);	
+
+</script>
 				<button class="btn">Answer 1</button>
 				<button class="btn">Answer 2</button>
 				<button class="btn">Answer 3</button>
@@ -24,6 +39,7 @@
 			<button id="next-btn" class="next-btn btn hide">Next</button>
 		</div>
 	</div>
+
 
 
 </body>

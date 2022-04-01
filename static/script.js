@@ -14,6 +14,7 @@ answerButtonsElement.addEventListener("click", e => {
 }) */
 
 
+
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
