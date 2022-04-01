@@ -88,10 +88,10 @@ const questions = [
   {
     question: 'Do you enjoy working with data?',
     answers: [
-      { text: 'Strongly Disagree', correct: 'Strongly Disagree' },
-      { text: 'Disagree', correct: 'Disagree' },
-      { text: 'Partially agree', correct: 'Partially agree' },
-      { text: 'Strongly agree', correct: 'Strongly agree' }
+      { text: 'Strongly Disagree', 'Strongly Disagree' },
+      { text: 'Disagree', 'Disagree' },
+      { text: 'Partially agree', 'Partially agree' },
+      { text: 'Strongly agree',  'Strongly agree' }
     ]
   },
   {
