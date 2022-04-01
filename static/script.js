@@ -10,7 +10,7 @@ let shuffledQuestions, currentQuestionIndex
 to see if i can record what stundets answers*/
 answerButtonsElement.addEventListener("click", e => {
   console.log("answer-buttons")
-})
+}, { capture: true})
 
 
 startButton.addEventListener('click', startGame)
