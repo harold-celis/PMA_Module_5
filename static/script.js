@@ -5,14 +5,6 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
 
-document.getElementsById('answer-buttons').addEventListener('click',function(e)
-        {
-            e = e || window.event;
-            var target = e.target || e.srcElement;
-            console.log('window noticed you clicked something1');
-            console.log("value of the element clicked== "+target.innerText);
-            console.log(target);//<-- this is the element that was clicked
-        }, false)
 
 let shuffledQuestions, currentQuestionIndex
 
