@@ -5,7 +5,7 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
 
-document.getElementsByClassName('btn').addEventListener('click',function(e)
+document.getElementsById('answer-buttons').addEventListener('click',function(e)
         {
             e = e || window.event;
             var target = e.target || e.srcElement;
