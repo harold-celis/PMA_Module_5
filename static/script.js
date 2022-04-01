@@ -9,7 +9,7 @@ let shuffledQuestions, currentQuestionIndex
 /* this section was added from this webpage: https://www.youtube.com/watch?v=XF1_MlZ5l6M&ab_channel=WebDevSimplified
 to see if i can record what stundets answers*/
 answerButtonsElement.addEventListener("click", e => {
-  console.log("answer-buttons")
+  console.log(answer-buttons)
 }, { capture: true})
 
 
