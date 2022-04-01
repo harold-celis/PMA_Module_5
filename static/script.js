@@ -4,7 +4,8 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
-/*let shuffledQuestions, currentQuestionIndex , i don't wan't random questions*/
+let shuffledQuestions, currentQuestionIndex
+
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -14,8 +15,8 @@ nextButton.addEventListener('click', () => {
 
 function startGame() {
   startButton.classList.add('hide')
-  shuffledQuestions = questions.sort(() => Math.random() - .5)
-  currentQuestionIndex = 0
+  shuffledQuestions = questions 
+  currentQuestionIndex = 0 
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
 }
