@@ -5,14 +5,16 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
 
+document.getElementById('btn').addEventListener('click',function(e)
+        {
+            e = e || window.event;
+            var target = e.target || e.srcElement;
+            console.log('window noticed you clicked something1');
+            console.log("value of the element clicked== "+target.innerText);
+            console.log(target);//<-- this is the element that was clicked
+        }, false);
+
 let shuffledQuestions, currentQuestionIndex
-
-/* this section was added from this webpage: https://www.youtube.com/watch?v=XF1_MlZ5l6M&ab_channel=WebDevSimplified
-to see if i can record what stundets answers 
-answerButtonsElement.addEventListener("click", e => {
-  console.log(selectedButton)
-}) */
-
 
 
 startButton.addEventListener('click', startGame)
