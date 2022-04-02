@@ -25,10 +25,8 @@
 
 
 			window.addEventListener('click',function(e) {
-        e = e || window.event;
-        var target = e.target || e.srcElement;
-        console.log('window noticed you clicked something1');
-        console.log("value of the element clicked== "+target.innerHTML);
+        e = e ;
+        var target = e.target;
         console.log(target);//<-- this is the element that was clicked
 			}, false);	
 
