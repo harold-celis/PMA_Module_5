@@ -18,6 +18,21 @@
 				<button class="btn3">Answer 3</button>
 				<button class="btn4">Answer 4</button>
 			</div>
+			<script>
+
+			var buttonValue = document.getElementsByClassName("btn1")[0].innerHTML;
+			console.log(buttonValue);
+
+
+			window.addEventListener('click',function(e) {
+        e = e || window.event;
+        var target = e.target || e.srcElement;
+        console.log('window noticed you clicked something1');
+        console.log("value of the element clicked== "+target.innerHTML);
+        console.log(target);//<-- this is the element that was clicked
+			}, false);	
+
+			</script>
 		</div>
 		<div class="controls">
 			<button id="start-btn" class="start-btn btn">Start</button>
